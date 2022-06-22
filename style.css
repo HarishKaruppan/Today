@@ -1,0 +1,44 @@
+a:link{
+    color:red;
+}
+a:visited{
+    color: aqua;
+}
+a:hover{
+    color: green;
+}
+a:active{
+    color: black;
+    background-color: blueviolet;
+}
+.list{
+    list-style-type: lower-alpha;
+}
+li{
+    display: block;
+}
+div{
+    max-width: 600px;
+    margin: auto;
+}
+.border{
+    border: 1px solid black;
+}
+.z-image{
+    margin: 0 auto;
+    display: block;
+    position: absolute;
+    top: 5%;
+    left: 29%;
+    z-index: -1;
+}
+.z0image{
+    margin: 0 auto;
+    display: block;
+    position: absolute;
+    top: 5%;
+    left: 29%;
+    z-index: -2;
+    width: 205px;
+    height: auto;
+}
